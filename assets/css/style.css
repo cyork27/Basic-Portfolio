@@ -1,0 +1,221 @@
+.container 
+h1, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14pt;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 21px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #777777;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+.contactinfo {
+	opacity: .5;
+}
+
+#header {
+	width: 100%;
+	height: 75px;
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	border-bottom: 2px solid #CCCCCC;
+	z-index: 200;
+	clear: both; 
+}
+
+.logo {
+	height: 75px;
+	text-align: center;
+	background: #4aaaa5;
+	min-width: 25%;
+	max-width: 610px;
+	float: left;
+}
+
+.logo h1 {
+	color: #FFF;
+	position: relative;
+	top: 23px;
+	padding: 0 15px;
+	transition: .5s;
+}
+
+.nav {
+	height: 75px;
+	min-width: 22%;
+	float: right;
+	text-align: right;
+}
+
+.nav p {
+	position: relative;
+	top: 27px;
+}
+
+.category {
+	text-decoration: none;
+	color: #777777;
+}
+
+#background {
+	min-height: 99vh;
+}
+
+.contentColumn {
+	width: 90%;
+	max-width: 960px;
+	background: #ffffff;
+	margin: 0 auto;
+	display: block;
+}
+
+#bodyColumn {
+	position: relative;
+	top: 110px;
+}
+
+.left, .right {
+	background: #FFF;
+	border: 2px solid #DDDDDD;
+	padding: 20px;
+}
+
+.left {
+	width: 75%;
+	max-width: 610px;
+	float: left;
+}
+
+#leftHeader {
+	padding-bottom: 20px;
+	border-bottom: 3px solid #DDDDDD;
+	margin-bottom: 25px;
+	color: #4aaaa5;
+}
+
+.right {
+	width: 22%;
+	max-width: 230px;
+	float: right;
+}
+
+#rightHeader {
+	padding-bottom: 15px;
+	border-bottom: 1.5px solid #DDDDDD;
+	margin-bottom: 25px;
+	color: #4aaaa5;
+}
+
+.socialIcon {
+	width: 30.5%;
+	transition: .5s;
+}
+
+#gitcat {
+	padding: 0 1% 0 0;
+}
+
+#linkedIn {
+	padding: 0 1%;
+}
+
+#stackOverflow {
+	padding: 0 0 0 1%;
+}
+
+#footer {
+	width: 100%;
+	background: #666666;
+	text-align: center;
+}
+
+#footerAccent {
+	width: 100%;
+	height: 10px;
+	background: #4aaaa5;
+}
+
+#footer p {
+	color: #CCCCCC;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: .7em;
+}
+
+#starpass {
+	max-width: 200px;
+	float: left;
+	margin-right: 15px;
+	position: relative;
+	top: 5px;
+}
+
+#p2 {
+	clear: both;
+	padding-top: 15px;
+}
+
+#ipad {
+	position:relative;
+	position: left;
+}
+
+.image {
+    position:relative;
+}
+
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 30px;
+    width: 100%
+}
+
+.portfolio {
+	float: left;
+	width: 265px;
+	height: 200px;
+	position: relative;
+	margin: 0px 60px 50px 0px;
+}
+
+.portfolio img {
+	width: 265px;
+	height: 200px;
+	position: absolute;
+	z-index: 0;
+}
+
+.portfolio h2 {
+	width: 100%;
+	background-color: #4aaaa5;
+	color: #fff;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	margin: 0px 30px 0px 30px;
+	padding: 20px 0px 20px 0px;
+	bottom: 10px;
+}
+
+.portfolio:nth-child(even) {
+	float:right;
+}
